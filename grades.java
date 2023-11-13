@@ -1,3 +1,40 @@
+/*
+ * Brandon Gerber
+ * COP1250C
+ * 11/13/2023
+ * Added pseudocode resubmission
+ 
+ * declare variables 
+  	countA = 0
+	countB = 0
+	countC = 0
+	countD = 0
+	countF = 0
+	
+	- open grades.txt file
+	
+	-read lines from file
+	
+	-find letter based on percent 
+	if(grade >= 90 && grade <= 100)
+	increment countA
+	.......
+	>80 <89
+	increment countB
+	.......
+	>70 <79
+	increment countC
+	.......
+	>60 <69
+	increment countD
+	else
+	increment countF
+	
+	close file
+	
+	display results
+	
+ */
 package grades;
 
 import java.io.BufferedReader;
